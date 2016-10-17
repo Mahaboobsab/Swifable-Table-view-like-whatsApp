@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52511FD31DB4A601004BA07E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52511FD21DB4A601004BA07E /* main.m */; };
+		52511FD61DB4A601004BA07E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52511FD51DB4A601004BA07E /* AppDelegate.m */; };
+		52511FD91DB4A601004BA07E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52511FD81DB4A601004BA07E /* ViewController.m */; };
+		52511FDC1DB4A601004BA07E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52511FDA1DB4A601004BA07E /* Main.storyboard */; };
+		52511FDE1DB4A602004BA07E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52511FDD1DB4A602004BA07E /* Assets.xcassets */; };
+		52511FE11DB4A602004BA07E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52511FDF1DB4A602004BA07E /* LaunchScreen.storyboard */; };
+		52511FEC1DB4A605004BA07E /* Swifable_Table_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52511FEB1DB4A605004BA07E /* Swifable_Table_ViewTests.m */; };
+		52511FF71DB4A605004BA07E /* Swifable_Table_ViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52511FF61DB4A605004BA07E /* Swifable_Table_ViewUITests.m */; };
+		525120061DB4AD82004BA07E /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 525120051DB4AD82004BA07E /* TableViewCell.m */; };
+		5251203E1DB4D994004BA07E /* ahoy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5251202D1DB4D994004BA07E /* ahoy.jpg */; };
+		5251203F1DB4D994004BA07E /* alchemy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5251202E1DB4D994004BA07E /* alchemy.jpg */; };
+		525120401DB4D994004BA07E /* bunting-flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251202F1DB4D994004BA07E /* bunting-flag.png */; };
+		525120411DB4D994004BA07E /* canvas-orange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 525120301DB4D994004BA07E /* canvas-orange.jpg */; };
+		525120421DB4D994004BA07E /* cuadros.png in Resources */ = {isa = PBXBuildFile; fileRef = 525120311DB4D994004BA07E /* cuadros.png */; };
+		525120431DB4D994004BA07E /* facebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 525120321DB4D994004BA07E /* facebook@2x.png */; };
+		525120441DB4D994004BA07E /* green-goblin.png in Resources */ = {isa = PBXBuildFile; fileRef = 525120331DB4D994004BA07E /* green-goblin.png */; };
+		525120451DB4D994004BA07E /* hodgepodge.png in Resources */ = {isa = PBXBuildFile; fileRef = 525120341DB4D994004BA07E /* hodgepodge.png */; };
+		525120461DB4D994004BA07E /* hotdogs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 525120351DB4D994004BA07E /* hotdogs.jpg */; };
+		525120471DB4D994004BA07E /* kiwis.png in Resources */ = {isa = PBXBuildFile; fileRef = 525120361DB4D994004BA07E /* kiwis.png */; };
+		525120481DB4D994004BA07E /* like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 525120371DB4D994004BA07E /* like@2x.png */; };
+		525120491DB4D994004BA07E /* message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 525120381DB4D994004BA07E /* message@2x.png */; };
+		5251204A1DB4D994004BA07E /* naranjas.png in Resources */ = {isa = PBXBuildFile; fileRef = 525120391DB4D994004BA07E /* naranjas.png */; };
+		5251204B1DB4D994004BA07E /* neon-autumn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5251203A1DB4D994004BA07E /* neon-autumn.gif */; };
+		5251204C1DB4D994004BA07E /* subway-lines.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251203B1DB4D994004BA07E /* subway-lines.png */; };
+		5251204D1DB4D994004BA07E /* twitter@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5251203C1DB4D994004BA07E /* twitter@2x.png */; };
+		5251204E1DB4D994004BA07E /* white-wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5251203D1DB4D994004BA07E /* white-wood.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52511FE81DB4A605004BA07E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52511FC61DB4A600004BA07E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52511FCD1DB4A601004BA07E;
+			remoteInfo = "Swifable Table View";
+		};
+		52511FF31DB4A605004BA07E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52511FC61DB4A600004BA07E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52511FCD1DB4A601004BA07E;
+			remoteInfo = "Swifable Table View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52511FCE1DB4A601004BA07E /* Swifable Table View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swifable Table View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52511FD21DB4A601004BA07E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52511FD41DB4A601004BA07E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52511FD51DB4A601004BA07E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52511FD71DB4A601004BA07E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52511FD81DB4A601004BA07E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52511FDB1DB4A601004BA07E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52511FDD1DB4A602004BA07E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52511FE01DB4A602004BA07E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52511FE21DB4A602004BA07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52511FE71DB4A605004BA07E /* Swifable Table ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swifable Table ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52511FEB1DB4A605004BA07E /* Swifable_Table_ViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swifable_Table_ViewTests.m; sourceTree = "<group>"; };
+		52511FED1DB4A605004BA07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52511FF21DB4A605004BA07E /* Swifable Table ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swifable Table ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52511FF61DB4A605004BA07E /* Swifable_Table_ViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Swifable_Table_ViewUITests.m; sourceTree = "<group>"; };
+		52511FF81DB4A605004BA07E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525120041DB4AD82004BA07E /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		525120051DB4AD82004BA07E /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		5251202D1DB4D994004BA07E /* ahoy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ahoy.jpg; sourceTree = "<group>"; };
+		5251202E1DB4D994004BA07E /* alchemy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alchemy.jpg; sourceTree = "<group>"; };
+		5251202F1DB4D994004BA07E /* bunting-flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bunting-flag.png"; sourceTree = "<group>"; };
+		525120301DB4D994004BA07E /* canvas-orange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "canvas-orange.jpg"; sourceTree = "<group>"; };
+		525120311DB4D994004BA07E /* cuadros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuadros.png; sourceTree = "<group>"; };
+		525120321DB4D994004BA07E /* facebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "facebook@2x.png"; sourceTree = "<group>"; };
+		525120331DB4D994004BA07E /* green-goblin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-goblin.png"; sourceTree = "<group>"; };
+		525120341DB4D994004BA07E /* hodgepodge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hodgepodge.png; sourceTree = "<group>"; };
+		525120351DB4D994004BA07E /* hotdogs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotdogs.jpg; sourceTree = "<group>"; };
+		525120361DB4D994004BA07E /* kiwis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kiwis.png; sourceTree = "<group>"; };
+		525120371DB4D994004BA07E /* like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "like@2x.png"; sourceTree = "<group>"; };
+		525120381DB4D994004BA07E /* message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@2x.png"; sourceTree = "<group>"; };
+		525120391DB4D994004BA07E /* naranjas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naranjas.png; sourceTree = "<group>"; };
+		5251203A1DB4D994004BA07E /* neon-autumn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "neon-autumn.gif"; sourceTree = "<group>"; };
+		5251203B1DB4D994004BA07E /* subway-lines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "subway-lines.png"; sourceTree = "<group>"; };
+		5251203C1DB4D994004BA07E /* twitter@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter@2x.png"; sourceTree = "<group>"; };
+		5251203D1DB4D994004BA07E /* white-wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "white-wood.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52511FCB1DB4A601004BA07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52511FE41DB4A605004BA07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52511FEF1DB4A605004BA07E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52511FC51DB4A600004BA07E = {
+			isa = PBXGroup;
+			children = (
+				52511FD01DB4A601004BA07E /* Swifable Table View */,
+				52511FEA1DB4A605004BA07E /* Swifable Table ViewTests */,
+				52511FF51DB4A605004BA07E /* Swifable Table ViewUITests */,
+				52511FCF1DB4A601004BA07E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52511FCF1DB4A601004BA07E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52511FCE1DB4A601004BA07E /* Swifable Table View.app */,
+				52511FE71DB4A605004BA07E /* Swifable Table ViewTests.xctest */,
+				52511FF21DB4A605004BA07E /* Swifable Table ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52511FD01DB4A601004BA07E /* Swifable Table View */ = {
+			isa = PBXGroup;
+			children = (
+				52511FD41DB4A601004BA07E /* AppDelegate.h */,
+				52511FD51DB4A601004BA07E /* AppDelegate.m */,
+				52511FD71DB4A601004BA07E /* ViewController.h */,
+				52511FD81DB4A601004BA07E /* ViewController.m */,
+				52511FDA1DB4A601004BA07E /* Main.storyboard */,
+				525120041DB4AD82004BA07E /* TableViewCell.h */,
+				525120051DB4AD82004BA07E /* TableViewCell.m */,
+				5251202D1DB4D994004BA07E /* ahoy.jpg */,
+				5251202E1DB4D994004BA07E /* alchemy.jpg */,
+				5251202F1DB4D994004BA07E /* bunting-flag.png */,
+				525120301DB4D994004BA07E /* canvas-orange.jpg */,
+				525120311DB4D994004BA07E /* cuadros.png */,
+				525120321DB4D994004BA07E /* facebook@2x.png */,
+				525120331DB4D994004BA07E /* green-goblin.png */,
+				525120341DB4D994004BA07E /* hodgepodge.png */,
+				525120351DB4D994004BA07E /* hotdogs.jpg */,
+				525120361DB4D994004BA07E /* kiwis.png */,
+				525120371DB4D994004BA07E /* like@2x.png */,
+				525120381DB4D994004BA07E /* message@2x.png */,
+				525120391DB4D994004BA07E /* naranjas.png */,
+				5251203A1DB4D994004BA07E /* neon-autumn.gif */,
+				5251203B1DB4D994004BA07E /* subway-lines.png */,
+				5251203C1DB4D994004BA07E /* twitter@2x.png */,
+				5251203D1DB4D994004BA07E /* white-wood.jpg */,
+				52511FDD1DB4A602004BA07E /* Assets.xcassets */,
+				52511FDF1DB4A602004BA07E /* LaunchScreen.storyboard */,
+				52511FE21DB4A602004BA07E /* Info.plist */,
+				52511FD11DB4A601004BA07E /* Supporting Files */,
+			);
+			path = "Swifable Table View";
+			sourceTree = "<group>";
+		};
+		52511FD11DB4A601004BA07E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52511FD21DB4A601004BA07E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52511FEA1DB4A605004BA07E /* Swifable Table ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				52511FEB1DB4A605004BA07E /* Swifable_Table_ViewTests.m */,
+				52511FED1DB4A605004BA07E /* Info.plist */,
+			);
+			path = "Swifable Table ViewTests";
+			sourceTree = "<group>";
+		};
+		52511FF51DB4A605004BA07E /* Swifable Table ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52511FF61DB4A605004BA07E /* Swifable_Table_ViewUITests.m */,
+				52511FF81DB4A605004BA07E /* Info.plist */,
+			);
+			path = "Swifable Table ViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52511FCD1DB4A601004BA07E /* Swifable Table View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52511FFB1DB4A605004BA07E /* Build configuration list for PBXNativeTarget "Swifable Table View" */;
+			buildPhases = (
+				52511FCA1DB4A601004BA07E /* Sources */,
+				52511FCB1DB4A601004BA07E /* Frameworks */,
+				52511FCC1DB4A601004BA07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swifable Table View";
+			productName = "Swifable Table View";
+			productReference = 52511FCE1DB4A601004BA07E /* Swifable Table View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52511FE61DB4A605004BA07E /* Swifable Table ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52511FFE1DB4A605004BA07E /* Build configuration list for PBXNativeTarget "Swifable Table ViewTests" */;
+			buildPhases = (
+				52511FE31DB4A605004BA07E /* Sources */,
+				52511FE41DB4A605004BA07E /* Frameworks */,
+				52511FE51DB4A605004BA07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52511FE91DB4A605004BA07E /* PBXTargetDependency */,
+			);
+			name = "Swifable Table ViewTests";
+			productName = "Swifable Table ViewTests";
+			productReference = 52511FE71DB4A605004BA07E /* Swifable Table ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52511FF11DB4A605004BA07E /* Swifable Table ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525120011DB4A605004BA07E /* Build configuration list for PBXNativeTarget "Swifable Table ViewUITests" */;
+			buildPhases = (
+				52511FEE1DB4A605004BA07E /* Sources */,
+				52511FEF1DB4A605004BA07E /* Frameworks */,
+				52511FF01DB4A605004BA07E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52511FF41DB4A605004BA07E /* PBXTargetDependency */,
+			);
+			name = "Swifable Table ViewUITests";
+			productName = "Swifable Table ViewUITests";
+			productReference = 52511FF21DB4A605004BA07E /* Swifable Table ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52511FC61DB4A600004BA07E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = com.NeoRays;
+				TargetAttributes = {
+					52511FCD1DB4A601004BA07E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					52511FE61DB4A605004BA07E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52511FCD1DB4A601004BA07E;
+					};
+					52511FF11DB4A605004BA07E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52511FCD1DB4A601004BA07E;
+					};
+				};
+			};
+			buildConfigurationList = 52511FC91DB4A600004BA07E /* Build configuration list for PBXProject "Swifable Table View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52511FC51DB4A600004BA07E;
+			productRefGroup = 52511FCF1DB4A601004BA07E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52511FCD1DB4A601004BA07E /* Swifable Table View */,
+				52511FE61DB4A605004BA07E /* Swifable Table ViewTests */,
+				52511FF11DB4A605004BA07E /* Swifable Table ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52511FCC1DB4A601004BA07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5251203E1DB4D994004BA07E /* ahoy.jpg in Resources */,
+				5251203F1DB4D994004BA07E /* alchemy.jpg in Resources */,
+				525120451DB4D994004BA07E /* hodgepodge.png in Resources */,
+				52511FE11DB4A602004BA07E /* LaunchScreen.storyboard in Resources */,
+				5251204E1DB4D994004BA07E /* white-wood.jpg in Resources */,
+				52511FDE1DB4A602004BA07E /* Assets.xcassets in Resources */,
+				525120431DB4D994004BA07E /* facebook@2x.png in Resources */,
+				525120461DB4D994004BA07E /* hotdogs.jpg in Resources */,
+				525120411DB4D994004BA07E /* canvas-orange.jpg in Resources */,
+				52511FDC1DB4A601004BA07E /* Main.storyboard in Resources */,
+				525120471DB4D994004BA07E /* kiwis.png in Resources */,
+				525120401DB4D994004BA07E /* bunting-flag.png in Resources */,
+				525120481DB4D994004BA07E /* like@2x.png in Resources */,
+				5251204B1DB4D994004BA07E /* neon-autumn.gif in Resources */,
+				525120441DB4D994004BA07E /* green-goblin.png in Resources */,
+				5251204A1DB4D994004BA07E /* naranjas.png in Resources */,
+				525120491DB4D994004BA07E /* message@2x.png in Resources */,
+				5251204D1DB4D994004BA07E /* twitter@2x.png in Resources */,
+				5251204C1DB4D994004BA07E /* subway-lines.png in Resources */,
+				525120421DB4D994004BA07E /* cuadros.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52511FE51DB4A605004BA07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52511FF01DB4A605004BA07E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52511FCA1DB4A601004BA07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52511FD91DB4A601004BA07E /* ViewController.m in Sources */,
+				525120061DB4AD82004BA07E /* TableViewCell.m in Sources */,
+				52511FD61DB4A601004BA07E /* AppDelegate.m in Sources */,
+				52511FD31DB4A601004BA07E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52511FE31DB4A605004BA07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52511FEC1DB4A605004BA07E /* Swifable_Table_ViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52511FEE1DB4A605004BA07E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52511FF71DB4A605004BA07E /* Swifable_Table_ViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52511FE91DB4A605004BA07E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52511FCD1DB4A601004BA07E /* Swifable Table View */;
+			targetProxy = 52511FE81DB4A605004BA07E /* PBXContainerItemProxy */;
+		};
+		52511FF41DB4A605004BA07E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52511FCD1DB4A601004BA07E /* Swifable Table View */;
+			targetProxy = 52511FF31DB4A605004BA07E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52511FDA1DB4A601004BA07E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52511FDB1DB4A601004BA07E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52511FDF1DB4A602004BA07E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52511FE01DB4A602004BA07E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52511FF91DB4A605004BA07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52511FFA1DB4A605004BA07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52511FFC1DB4A605004BA07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swifable Table View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahaboob.Swifable-Table-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52511FFD1DB4A605004BA07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swifable Table View/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahaboob.Swifable-Table-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52511FFF1DB4A605004BA07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swifable Table ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahaboob.Swifable-Table-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifable Table View.app/Swifable Table View";
+			};
+			name = Debug;
+		};
+		525120001DB4A605004BA07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swifable Table ViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahaboob.Swifable-Table-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swifable Table View.app/Swifable Table View";
+			};
+			name = Release;
+		};
+		525120021DB4A605004BA07E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swifable Table ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahaboob.Swifable-Table-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swifable Table View";
+			};
+			name = Debug;
+		};
+		525120031DB4A605004BA07E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swifable Table ViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Mahaboob.Swifable-Table-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swifable Table View";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52511FC91DB4A600004BA07E /* Build configuration list for PBXProject "Swifable Table View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52511FF91DB4A605004BA07E /* Debug */,
+				52511FFA1DB4A605004BA07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52511FFB1DB4A605004BA07E /* Build configuration list for PBXNativeTarget "Swifable Table View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52511FFC1DB4A605004BA07E /* Debug */,
+				52511FFD1DB4A605004BA07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52511FFE1DB4A605004BA07E /* Build configuration list for PBXNativeTarget "Swifable Table ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52511FFF1DB4A605004BA07E /* Debug */,
+				525120001DB4A605004BA07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		525120011DB4A605004BA07E /* Build configuration list for PBXNativeTarget "Swifable Table ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525120021DB4A605004BA07E /* Debug */,
+				525120031DB4A605004BA07E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52511FC61DB4A600004BA07E /* Project object */;
+}
